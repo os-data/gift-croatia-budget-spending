@@ -1296,6 +1296,1299 @@
           }
         }
       }
+    },
+    {
+      "bytes": 3737435,
+      "hash": "80107b9b7a884ef2ea2e58ab331b4b304f04a595fea5d7612736351b645ac8d7",
+      "format": "csv",
+      "schema": {
+        "fields": [
+          {
+            "title": "Year",
+            "name": "Year",
+            "slug": "Year",
+            "type": "integer",
+            "format": "default",
+            "columnType": "date:fiscal-year",
+            "conceptType": "date",
+            "options": []
+          },
+          {
+            "title": "admin1_code",
+            "name": "admin1_code",
+            "slug": "admin1_code",
+            "type": "string",
+            "format": "default",
+            "columnType": "administrative-classification:generic:level1:code",
+            "conceptType": "administrative-classification",
+            "options": []
+          },
+          {
+            "title": "admin1_label",
+            "name": "admin1_label",
+            "slug": "admin1_label",
+            "type": "string",
+            "format": "default",
+            "columnType": "administrative-classification:generic:level1:label",
+            "conceptType": "administrative-classification",
+            "options": []
+          },
+          {
+            "title": "admin2_code",
+            "name": "admin2_code",
+            "slug": "admin2_code",
+            "type": "string",
+            "format": "default",
+            "columnType": "administrative-classification:generic:level2:code",
+            "conceptType": "administrative-classification",
+            "options": []
+          },
+          {
+            "title": "admin2_label",
+            "name": "admin2_label",
+            "slug": "admin2_label",
+            "type": "string",
+            "format": "default",
+            "columnType": "administrative-classification:generic:level2:label",
+            "conceptType": "administrative-classification",
+            "options": []
+          },
+          {
+            "title": "activity1_code",
+            "name": "activity1_code",
+            "slug": "activity1_code",
+            "type": "string",
+            "format": "default",
+            "columnType": "activity:generic:program:code",
+            "conceptType": "activity",
+            "options": []
+          },
+          {
+            "title": "activity1_label",
+            "name": "activity1_label",
+            "slug": "activity1_label",
+            "type": "string",
+            "format": "default",
+            "columnType": "activity:generic:program:label",
+            "conceptType": "activity",
+            "options": []
+          },
+          {
+            "title": "activity2_code",
+            "name": "activity2_code",
+            "slug": "activity2_code",
+            "type": "string",
+            "format": "default",
+            "columnType": "activity:generic:subprogram:code",
+            "conceptType": "activity",
+            "options": []
+          },
+          {
+            "title": "activity2_label",
+            "name": "activity2_label",
+            "slug": "activity2_label",
+            "type": "string",
+            "format": "default",
+            "columnType": "activity:generic:subprogram:label",
+            "conceptType": "activity",
+            "options": []
+          },
+          {
+            "title": "activity3_code",
+            "name": "activity3_code",
+            "slug": "activity3_code",
+            "type": "string",
+            "format": "default",
+            "columnType": "activity:generic:project:code",
+            "conceptType": "activity",
+            "options": []
+          },
+          {
+            "title": "activity3_label",
+            "name": "activity3_label",
+            "slug": "activity3_label",
+            "type": "string",
+            "format": "default",
+            "columnType": "activity:generic:project:label",
+            "conceptType": "activity",
+            "options": []
+          },
+          {
+            "title": "func1_code",
+            "name": "func1_code",
+            "slug": "func1_code",
+            "type": "string",
+            "format": "default",
+            "columnType": "functional-classification:generic:level1:code",
+            "conceptType": "functional-classification",
+            "options": []
+          },
+          {
+            "title": "func1_label",
+            "name": "func1_label",
+            "slug": "func1_label",
+            "type": "string",
+            "format": "default",
+            "columnType": "functional-classification:generic:level1:label",
+            "conceptType": "functional-classification",
+            "options": []
+          },
+          {
+            "title": "fin_source_code",
+            "name": "fin_source_code",
+            "slug": "fin_source_code",
+            "type": "string",
+            "format": "default",
+            "columnType": "fin-source:generic:level1:code",
+            "conceptType": "fin-source",
+            "options": []
+          },
+          {
+            "title": "fin_source_label",
+            "name": "fin_source_label",
+            "slug": "fin_source_label",
+            "type": "string",
+            "format": "default",
+            "columnType": "fin-source:generic:level1:label",
+            "conceptType": "fin-source",
+            "options": []
+          },
+          {
+            "title": "econ1_code",
+            "name": "econ1_code",
+            "slug": "econ1_code",
+            "type": "string",
+            "format": "default",
+            "columnType": "economic-classification:generic:level1:code",
+            "conceptType": "economic-classification",
+            "options": []
+          },
+          {
+            "title": "econ1_label",
+            "name": "econ1_label",
+            "slug": "econ1_label",
+            "type": "string",
+            "format": "default",
+            "columnType": "economic-classification:generic:level1:label",
+            "conceptType": "economic-classification",
+            "options": []
+          },
+          {
+            "title": "econ2_code",
+            "name": "econ2_code",
+            "slug": "econ2_code",
+            "type": "string",
+            "format": "default",
+            "columnType": "economic-classification:generic:level2:code",
+            "conceptType": "economic-classification",
+            "options": []
+          },
+          {
+            "title": "econ2_label",
+            "name": "econ2_label",
+            "slug": "econ2_label",
+            "type": "string",
+            "format": "default",
+            "columnType": "economic-classification:generic:level2:label",
+            "conceptType": "economic-classification",
+            "options": []
+          },
+          {
+            "title": "econ3_code",
+            "name": "econ3_code",
+            "slug": "econ3_code",
+            "type": "string",
+            "format": "default",
+            "columnType": "economic-classification:generic:level3:code",
+            "conceptType": "economic-classification",
+            "options": []
+          },
+          {
+            "title": "econ3_label",
+            "name": "econ3_label",
+            "slug": "econ3_label",
+            "type": "string",
+            "format": "default",
+            "columnType": "economic-classification:gfsm:level3:label",
+            "conceptType": "economic-classification",
+            "options": []
+          },
+          {
+            "title": "approved_value",
+            "name": "approved_value",
+            "slug": "approved_value",
+            "type": "number",
+            "format": "default",
+            "columnType": "value",
+            "conceptType": "value",
+            "options": [
+              {
+                "name": "decimalChar",
+                "title": "Decimal Separator",
+                "defaultValue": ".",
+                "trim": "false"
+              },
+              {
+                "name": "groupChar",
+                "title": "Grouping Character",
+                "defaultValue": ",",
+                "trim": "false"
+              },
+              {
+                "name": "currency",
+                "title": "Currency",
+                "values": []
+              },
+              {
+                "name": "factor",
+                "title": "Factor",
+                "type": "number"
+              },
+              {
+                "name": "direction",
+                "title": "Direction",
+                "values": [
+                  {
+                    "name": "Expenditure",
+                    "value": "expenditure"
+                  },
+                  {
+                    "name": "Revenue",
+                    "value": "revenue"
+                  }
+                ]
+              },
+              {
+                "name": "phase",
+                "title": "Phase",
+                "values": [
+                  {
+                    "name": "Proposed",
+                    "value": "proposed"
+                  },
+                  {
+                    "name": "Approved",
+                    "value": "approved"
+                  },
+                  {
+                    "name": "Adjusted",
+                    "value": "adjusted"
+                  },
+                  {
+                    "name": "Executed",
+                    "value": "executed"
+                  }
+                ]
+              }
+            ],
+            "decimalChar": ".",
+            "groupChar": ","
+          },
+          {
+            "title": "executed_value",
+            "name": "executed_value",
+            "slug": "executed_value",
+            "type": "number",
+            "format": "default",
+            "columnType": "value",
+            "conceptType": "value",
+            "options": [
+              {
+                "name": "decimalChar",
+                "title": "Decimal Separator",
+                "defaultValue": ".",
+                "trim": "false"
+              },
+              {
+                "name": "groupChar",
+                "title": "Grouping Character",
+                "defaultValue": ",",
+                "trim": "false"
+              },
+              {
+                "name": "currency",
+                "title": "Currency",
+                "values": []
+              },
+              {
+                "name": "factor",
+                "title": "Factor",
+                "type": "number"
+              },
+              {
+                "name": "direction",
+                "title": "Direction",
+                "values": [
+                  {
+                    "name": "Expenditure",
+                    "value": "expenditure"
+                  },
+                  {
+                    "name": "Revenue",
+                    "value": "revenue"
+                  }
+                ]
+              },
+              {
+                "name": "phase",
+                "title": "Phase",
+                "values": [
+                  {
+                    "name": "Proposed",
+                    "value": "proposed"
+                  },
+                  {
+                    "name": "Approved",
+                    "value": "approved"
+                  },
+                  {
+                    "name": "Adjusted",
+                    "value": "adjusted"
+                  },
+                  {
+                    "name": "Executed",
+                    "value": "executed"
+                  }
+                ]
+              }
+            ],
+            "decimalChar": ".",
+            "groupChar": ","
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      },
+      "encoding": "utf-8",
+      "mediatype": "text/csv",
+      "name": "croatia-budget-spending__2017.csv",
+      "dialect": {
+        "delimiter": ",",
+        "quoteChar": "\""
+      },
+      "path": "data/croatia-budget-spending__2017.csv",
+      "hashcopy": "ef50c1a0f871f06e9326dd6ec05ec03e04ed2c924012e9a9a1f6528aaf0cf688",
+      "sample": [
+        [
+          "Year",
+          "admin1_code",
+          "admin1_label",
+          "admin2_code",
+          "admin2_label",
+          "activity1_code",
+          "activity1_label",
+          "activity2_code",
+          "activity2_label",
+          "activity3_code",
+          "activity3_label",
+          "func1_code",
+          "func1_label",
+          "fin_source_code",
+          "fin_source_label",
+          "econ1_code",
+          "econ1_label",
+          "econ2_code",
+          "econ2_label",
+          "econ3_code",
+          "econ3_label",
+          "approved_value",
+          "executed_value"
+        ],
+        [
+          "2017",
+          "010",
+          "HRVATSKI SABOR",
+          "01005",
+          "Hrvatski sabor",
+          "21",
+          "POLITIČKI SUSTAV",
+          "2101",
+          "PROVOĐENJE ZAKONODAVNE VLASTI",
+          "A501000",
+          "ADMINISTRACIJA I UPRAVLJANJE",
+          "01",
+          "Opće javne usluge",
+          "1",
+          "OPĆI PRIHODI I PRIMICI",
+          "3",
+          "Rashodi poslovanja",
+          "31",
+          "Rashodi za zaposlene",
+          "311",
+          "Plaće (Bruto)",
+          "78644000",
+          "77946067.23"
+        ],
+        [
+          "2017",
+          "010",
+          "HRVATSKI SABOR",
+          "01005",
+          "Hrvatski sabor",
+          "21",
+          "POLITIČKI SUSTAV",
+          "2101",
+          "PROVOĐENJE ZAKONODAVNE VLASTI",
+          "A501000",
+          "ADMINISTRACIJA I UPRAVLJANJE",
+          "01",
+          "Opće javne usluge",
+          "1",
+          "OPĆI PRIHODI I PRIMICI",
+          "3",
+          "Rashodi poslovanja",
+          "31",
+          "Rashodi za zaposlene",
+          "312",
+          "Ostali rashodi za zaposlene",
+          "1155200",
+          "1034332.96"
+        ],
+        [
+          "2017",
+          "010",
+          "HRVATSKI SABOR",
+          "01005",
+          "Hrvatski sabor",
+          "21",
+          "POLITIČKI SUSTAV",
+          "2101",
+          "PROVOĐENJE ZAKONODAVNE VLASTI",
+          "A501000",
+          "ADMINISTRACIJA I UPRAVLJANJE",
+          "01",
+          "Opće javne usluge",
+          "1",
+          "OPĆI PRIHODI I PRIMICI",
+          "3",
+          "Rashodi poslovanja",
+          "31",
+          "Rashodi za zaposlene",
+          "313",
+          "Doprinosi na plaće",
+          "13544512",
+          "13345102.23"
+        ],
+        [
+          "2017",
+          "010",
+          "HRVATSKI SABOR",
+          "01005",
+          "Hrvatski sabor",
+          "21",
+          "POLITIČKI SUSTAV",
+          "2101",
+          "PROVOĐENJE ZAKONODAVNE VLASTI",
+          "A501000",
+          "ADMINISTRACIJA I UPRAVLJANJE",
+          "01",
+          "Opće javne usluge",
+          "1",
+          "OPĆI PRIHODI I PRIMICI",
+          "3",
+          "Rashodi poslovanja",
+          "32",
+          "Materijalni rashodi",
+          "321",
+          "Naknade troškova zaposlenima",
+          "9185000",
+          "7463398.08"
+        ],
+        [
+          "2017",
+          "010",
+          "HRVATSKI SABOR",
+          "01005",
+          "Hrvatski sabor",
+          "21",
+          "POLITIČKI SUSTAV",
+          "2101",
+          "PROVOĐENJE ZAKONODAVNE VLASTI",
+          "A501000",
+          "ADMINISTRACIJA I UPRAVLJANJE",
+          "01",
+          "Opće javne usluge",
+          "1",
+          "OPĆI PRIHODI I PRIMICI",
+          "3",
+          "Rashodi poslovanja",
+          "32",
+          "Materijalni rashodi",
+          "322",
+          "Rashodi za materijal i energiju",
+          "3880000",
+          "3312059.19"
+        ],
+        [
+          "2017",
+          "010",
+          "HRVATSKI SABOR",
+          "01005",
+          "Hrvatski sabor",
+          "21",
+          "POLITIČKI SUSTAV",
+          "2101",
+          "PROVOĐENJE ZAKONODAVNE VLASTI",
+          "A501000",
+          "ADMINISTRACIJA I UPRAVLJANJE",
+          "01",
+          "Opće javne usluge",
+          "1",
+          "OPĆI PRIHODI I PRIMICI",
+          "3",
+          "Rashodi poslovanja",
+          "32",
+          "Materijalni rashodi",
+          "323",
+          "Rashodi za usluge",
+          "15318250",
+          "11600537.25"
+        ],
+        [
+          "2017",
+          "010",
+          "HRVATSKI SABOR",
+          "01005",
+          "Hrvatski sabor",
+          "21",
+          "POLITIČKI SUSTAV",
+          "2101",
+          "PROVOĐENJE ZAKONODAVNE VLASTI",
+          "A501000",
+          "ADMINISTRACIJA I UPRAVLJANJE",
+          "01",
+          "Opće javne usluge",
+          "1",
+          "OPĆI PRIHODI I PRIMICI",
+          "3",
+          "Rashodi poslovanja",
+          "32",
+          "Materijalni rashodi",
+          "324",
+          "Naknade troškova osobama izvan radnog odnosa",
+          "450000",
+          "185141.25"
+        ],
+        [
+          "2017",
+          "010",
+          "HRVATSKI SABOR",
+          "01005",
+          "Hrvatski sabor",
+          "21",
+          "POLITIČKI SUSTAV",
+          "2101",
+          "PROVOĐENJE ZAKONODAVNE VLASTI",
+          "A501000",
+          "ADMINISTRACIJA I UPRAVLJANJE",
+          "01",
+          "Opće javne usluge",
+          "1",
+          "OPĆI PRIHODI I PRIMICI",
+          "3",
+          "Rashodi poslovanja",
+          "32",
+          "Materijalni rashodi",
+          "329",
+          "Ostali nespomenuti rashodi poslovanja",
+          "5876250",
+          "4384399"
+        ],
+        [
+          "2017",
+          "010",
+          "HRVATSKI SABOR",
+          "01005",
+          "Hrvatski sabor",
+          "21",
+          "POLITIČKI SUSTAV",
+          "2101",
+          "PROVOĐENJE ZAKONODAVNE VLASTI",
+          "A501000",
+          "ADMINISTRACIJA I UPRAVLJANJE",
+          "01",
+          "Opće javne usluge",
+          "1",
+          "OPĆI PRIHODI I PRIMICI",
+          "3",
+          "Rashodi poslovanja",
+          "34",
+          "Financijski rashodi",
+          "343",
+          "Ostali financijski rashodi",
+          "17908",
+          "8843.02"
+        ],
+        [
+          "2017",
+          "010",
+          "HRVATSKI SABOR",
+          "01005",
+          "Hrvatski sabor",
+          "21",
+          "POLITIČKI SUSTAV",
+          "2101",
+          "PROVOĐENJE ZAKONODAVNE VLASTI",
+          "A501000",
+          "ADMINISTRACIJA I UPRAVLJANJE",
+          "01",
+          "Opće javne usluge",
+          "1",
+          "OPĆI PRIHODI I PRIMICI",
+          "3",
+          "Rashodi poslovanja",
+          "37",
+          "Naknade građanima i kućanstvima na temelju osiguranja i druge naknade",
+          "372",
+          "Ostale naknade građanima i kućanstvima iz proračuna",
+          "250000",
+          "181306.39"
+        ],
+        [
+          "2017",
+          "010",
+          "HRVATSKI SABOR",
+          "01005",
+          "Hrvatski sabor",
+          "21",
+          "POLITIČKI SUSTAV",
+          "2101",
+          "PROVOĐENJE ZAKONODAVNE VLASTI",
+          "A501000",
+          "ADMINISTRACIJA I UPRAVLJANJE",
+          "01",
+          "Opće javne usluge",
+          "1",
+          "OPĆI PRIHODI I PRIMICI",
+          "4",
+          "Rashodi za nabavu nefinancijske imovine",
+          "42",
+          "Rashodi za nabavu proizvedene dugotrajne imovine",
+          "422",
+          "Postrojenja i oprema",
+          "711000",
+          "367513.72"
+        ],
+        [
+          "2017",
+          "010",
+          "HRVATSKI SABOR",
+          "01005",
+          "Hrvatski sabor",
+          "21",
+          "POLITIČKI SUSTAV",
+          "2101",
+          "PROVOĐENJE ZAKONODAVNE VLASTI",
+          "A501000",
+          "ADMINISTRACIJA I UPRAVLJANJE",
+          "01",
+          "Opće javne usluge",
+          "1",
+          "OPĆI PRIHODI I PRIMICI",
+          "4",
+          "Rashodi za nabavu nefinancijske imovine",
+          "42",
+          "Rashodi za nabavu proizvedene dugotrajne imovine",
+          "424",
+          "Knjige, umjetnička djela i ostale izložbene vrijednosti",
+          "135000",
+          "84176.27"
+        ],
+        [
+          "2017",
+          "010",
+          "HRVATSKI SABOR",
+          "01005",
+          "Hrvatski sabor",
+          "21",
+          "POLITIČKI SUSTAV",
+          "2101",
+          "PROVOĐENJE ZAKONODAVNE VLASTI",
+          "A501000",
+          "ADMINISTRACIJA I UPRAVLJANJE",
+          "01",
+          "Opće javne usluge",
+          "3",
+          "VLASTITI PRIHODI",
+          "3",
+          "Rashodi poslovanja",
+          "32",
+          "Materijalni rashodi",
+          "323",
+          "Rashodi za usluge",
+          "18000",
+          ""
+        ],
+        [
+          "2017",
+          "010",
+          "HRVATSKI SABOR",
+          "01005",
+          "Hrvatski sabor",
+          "21",
+          "POLITIČKI SUSTAV",
+          "2101",
+          "PROVOĐENJE ZAKONODAVNE VLASTI",
+          "A501000",
+          "ADMINISTRACIJA I UPRAVLJANJE",
+          "01",
+          "Opće javne usluge",
+          "5",
+          "POMOĆI",
+          "3",
+          "Rashodi poslovanja",
+          "32",
+          "Materijalni rashodi",
+          "324",
+          "Naknade troškova osobama izvan radnog odnosa",
+          "35000",
+          ""
+        ],
+        [
+          "2017",
+          "010",
+          "HRVATSKI SABOR",
+          "01005",
+          "Hrvatski sabor",
+          "21",
+          "POLITIČKI SUSTAV",
+          "2101",
+          "PROVOĐENJE ZAKONODAVNE VLASTI",
+          "A501004",
+          "ODRŽAVANJE ZGRADE (NARODNO SVEUČILIŠTE OTOČAC)",
+          "08",
+          "Rekreacija, kultura i religija",
+          "1",
+          "OPĆI PRIHODI I PRIMICI",
+          "3",
+          "Rashodi poslovanja",
+          "36",
+          "Pomoći dane u inozemstvo i unutar općeg proračuna",
+          "366",
+          "Pomoći proračunskim korisnicima drugih proračuna",
+          "360000",
+          "360000"
+        ],
+        [
+          "2017",
+          "010",
+          "HRVATSKI SABOR",
+          "01005",
+          "Hrvatski sabor",
+          "21",
+          "POLITIČKI SUSTAV",
+          "2101",
+          "PROVOĐENJE ZAKONODAVNE VLASTI",
+          "A501026",
+          "OBILJEŽAVANJE SPOMENDANA BLEIBURŠKE TRAGEDIJE I KRIŽNOG PUTA",
+          "01",
+          "Opće javne usluge",
+          "1",
+          "OPĆI PRIHODI I PRIMICI",
+          "3",
+          "Rashodi poslovanja",
+          "38",
+          "Ostali rashodi",
+          "381",
+          "Tekuće donacije",
+          "500000",
+          "500000"
+        ],
+        [
+          "2017",
+          "010",
+          "HRVATSKI SABOR",
+          "01005",
+          "Hrvatski sabor",
+          "21",
+          "POLITIČKI SUSTAV",
+          "2101",
+          "PROVOĐENJE ZAKONODAVNE VLASTI",
+          "A501029",
+          "OBVEZE PO SUDSKIM SPOROVIMA",
+          "01",
+          "Opće javne usluge",
+          "1",
+          "OPĆI PRIHODI I PRIMICI",
+          "3",
+          "Rashodi poslovanja",
+          "31",
+          "Rashodi za zaposlene",
+          "312",
+          "Ostali rashodi za zaposlene",
+          "400",
+          ""
+        ],
+        [
+          "2017",
+          "010",
+          "HRVATSKI SABOR",
+          "01005",
+          "Hrvatski sabor",
+          "21",
+          "POLITIČKI SUSTAV",
+          "2101",
+          "PROVOĐENJE ZAKONODAVNE VLASTI",
+          "A501029",
+          "OBVEZE PO SUDSKIM SPOROVIMA",
+          "01",
+          "Opće javne usluge",
+          "1",
+          "OPĆI PRIHODI I PRIMICI",
+          "3",
+          "Rashodi poslovanja",
+          "34",
+          "Financijski rashodi",
+          "343",
+          "Ostali financijski rashodi",
+          "100",
+          ""
+        ],
+        [
+          "2017",
+          "010",
+          "HRVATSKI SABOR",
+          "01005",
+          "Hrvatski sabor",
+          "21",
+          "POLITIČKI SUSTAV",
+          "2101",
+          "PROVOĐENJE ZAKONODAVNE VLASTI",
+          "A501032",
+          "SPOMEN PODRUČJE JASENOVAC I OBILJEŽAVANJE ANTIFAŠISTIČKE BORBE U RH",
+          "08",
+          "Rekreacija, kultura i religija",
+          "1",
+          "OPĆI PRIHODI I PRIMICI",
+          "3",
+          "Rashodi poslovanja",
+          "36",
+          "Pomoći dane u inozemstvo i unutar općeg proračuna",
+          "366",
+          "Pomoći proračunskim korisnicima drugih proračuna",
+          "200000",
+          "200000"
+        ],
+        [
+          "2017",
+          "010",
+          "HRVATSKI SABOR",
+          "01005",
+          "Hrvatski sabor",
+          "21",
+          "POLITIČKI SUSTAV",
+          "2101",
+          "PROVOĐENJE ZAKONODAVNE VLASTI",
+          "A501032",
+          "SPOMEN PODRUČJE JASENOVAC I OBILJEŽAVANJE ANTIFAŠISTIČKE BORBE U RH",
+          "08",
+          "Rekreacija, kultura i religija",
+          "1",
+          "OPĆI PRIHODI I PRIMICI",
+          "3",
+          "Rashodi poslovanja",
+          "38",
+          "Ostali rashodi",
+          "381",
+          "Tekuće donacije",
+          "300000",
+          "300000"
+        ],
+        [
+          "2017",
+          "010",
+          "HRVATSKI SABOR",
+          "01005",
+          "Hrvatski sabor",
+          "21",
+          "POLITIČKI SUSTAV",
+          "2101",
+          "PROVOĐENJE ZAKONODAVNE VLASTI",
+          "A501037",
+          "OBILJEŽAVANJE SJEĆANJA NA ŽRTVE SVIH TOTALITARNIH I AUTORITARNIH REŽIMA",
+          "08",
+          "Rekreacija, kultura i religija",
+          "1",
+          "OPĆI PRIHODI I PRIMICI",
+          "3",
+          "Rashodi poslovanja",
+          "38",
+          "Ostali rashodi",
+          "381",
+          "Tekuće donacije",
+          "100000",
+          ""
+        ],
+        [
+          "2017",
+          "010",
+          "HRVATSKI SABOR",
+          "01005",
+          "Hrvatski sabor",
+          "21",
+          "POLITIČKI SUSTAV",
+          "2101",
+          "PROVOĐENJE ZAKONODAVNE VLASTI",
+          "K501013",
+          "INFORMATIZACIJA HRVATSKOG SABORA",
+          "01",
+          "Opće javne usluge",
+          "1",
+          "OPĆI PRIHODI I PRIMICI",
+          "4",
+          "Rashodi za nabavu nefinancijske imovine",
+          "41",
+          "Rashodi za nabavu neproizvedene dugotrajne imovine",
+          "412",
+          "Nematerijalna imovina",
+          "660000",
+          "504539.01"
+        ],
+        [
+          "2017",
+          "010",
+          "HRVATSKI SABOR",
+          "01005",
+          "Hrvatski sabor",
+          "21",
+          "POLITIČKI SUSTAV",
+          "2101",
+          "PROVOĐENJE ZAKONODAVNE VLASTI",
+          "K501013",
+          "INFORMATIZACIJA HRVATSKOG SABORA",
+          "01",
+          "Opće javne usluge",
+          "1",
+          "OPĆI PRIHODI I PRIMICI",
+          "4",
+          "Rashodi za nabavu nefinancijske imovine",
+          "42",
+          "Rashodi za nabavu proizvedene dugotrajne imovine",
+          "422",
+          "Postrojenja i oprema",
+          "1000000",
+          "904985.3"
+        ],
+        [
+          "2017",
+          "010",
+          "HRVATSKI SABOR",
+          "01005",
+          "Hrvatski sabor",
+          "21",
+          "POLITIČKI SUSTAV",
+          "2101",
+          "PROVOĐENJE ZAKONODAVNE VLASTI",
+          "K501013",
+          "INFORMATIZACIJA HRVATSKOG SABORA",
+          "01",
+          "Opće javne usluge",
+          "1",
+          "OPĆI PRIHODI I PRIMICI",
+          "4",
+          "Rashodi za nabavu nefinancijske imovine",
+          "42",
+          "Rashodi za nabavu proizvedene dugotrajne imovine",
+          "426",
+          "Nematerijalna proizvedena imovina",
+          "550000",
+          "456862.5"
+        ],
+        [
+          "2017",
+          "010",
+          "HRVATSKI SABOR",
+          "01005",
+          "Hrvatski sabor",
+          "21",
+          "POLITIČKI SUSTAV",
+          "2101",
+          "PROVOĐENJE ZAKONODAVNE VLASTI",
+          "K501027",
+          "SABORSKA TELEVIZIJA",
+          "08",
+          "Rekreacija, kultura i religija",
+          "1",
+          "OPĆI PRIHODI I PRIMICI",
+          "4",
+          "Rashodi za nabavu nefinancijske imovine",
+          "42",
+          "Rashodi za nabavu proizvedene dugotrajne imovine",
+          "422",
+          "Postrojenja i oprema",
+          "45000",
+          "29058.89"
+        ],
+        [
+          "2017",
+          "012",
+          "DRŽAVNO IZBORNO POVJERENSTVO REPUBLIKE HRVATSKE",
+          "01205",
+          "Državno izborno povjerenstvo Republike Hrvatske",
+          "21",
+          "POLITIČKI SUSTAV",
+          "2124",
+          "PROVEDBA IZBORA I REFERENDUMA",
+          "A896001",
+          "PROVEDBA IZBORA",
+          "01",
+          "Opće javne usluge",
+          "1",
+          "OPĆI PRIHODI I PRIMICI",
+          "3",
+          "Rashodi poslovanja",
+          "32",
+          "Materijalni rashodi",
+          "321",
+          "Naknade troškova zaposlenima",
+          "6000",
+          "5805"
+        ],
+        [
+          "2017",
+          "012",
+          "DRŽAVNO IZBORNO POVJERENSTVO REPUBLIKE HRVATSKE",
+          "01205",
+          "Državno izborno povjerenstvo Republike Hrvatske",
+          "21",
+          "POLITIČKI SUSTAV",
+          "2124",
+          "PROVEDBA IZBORA I REFERENDUMA",
+          "A896001",
+          "PROVEDBA IZBORA",
+          "01",
+          "Opće javne usluge",
+          "1",
+          "OPĆI PRIHODI I PRIMICI",
+          "3",
+          "Rashodi poslovanja",
+          "32",
+          "Materijalni rashodi",
+          "322",
+          "Rashodi za materijal i energiju",
+          "55000",
+          "54957.01"
+        ],
+        [
+          "2017",
+          "012",
+          "DRŽAVNO IZBORNO POVJERENSTVO REPUBLIKE HRVATSKE",
+          "01205",
+          "Državno izborno povjerenstvo Republike Hrvatske",
+          "21",
+          "POLITIČKI SUSTAV",
+          "2124",
+          "PROVEDBA IZBORA I REFERENDUMA",
+          "A896001",
+          "PROVEDBA IZBORA",
+          "01",
+          "Opće javne usluge",
+          "1",
+          "OPĆI PRIHODI I PRIMICI",
+          "3",
+          "Rashodi poslovanja",
+          "32",
+          "Materijalni rashodi",
+          "323",
+          "Rashodi za usluge",
+          "9917500",
+          "9701494.83"
+        ],
+        [
+          "2017",
+          "012",
+          "DRŽAVNO IZBORNO POVJERENSTVO REPUBLIKE HRVATSKE",
+          "01205",
+          "Državno izborno povjerenstvo Republike Hrvatske",
+          "21",
+          "POLITIČKI SUSTAV",
+          "2124",
+          "PROVEDBA IZBORA I REFERENDUMA",
+          "A896001",
+          "PROVEDBA IZBORA",
+          "01",
+          "Opće javne usluge",
+          "1",
+          "OPĆI PRIHODI I PRIMICI",
+          "3",
+          "Rashodi poslovanja",
+          "32",
+          "Materijalni rashodi",
+          "329",
+          "Ostali nespomenuti rashodi poslovanja",
+          "13000",
+          "12484.95"
+        ]
+      ],
+      "model": {
+        "dimensions": {
+          "date": {
+            "dimensionType": "datetime",
+            "primaryKey": [
+              "Year"
+            ],
+            "attributes": {
+              "Year": {
+                "source": "Year",
+                "title": "Year"
+              }
+            }
+          },
+          "administrative-classification": {
+            "dimensionType": "classification",
+            "primaryKey": [
+              "admin1_code",
+              "admin2_code"
+            ],
+            "attributes": {
+              "admin1_code": {
+                "source": "admin1_code",
+                "title": "admin1_code"
+              },
+              "admin1_label": {
+                "source": "admin1_label",
+                "title": "admin1_label",
+                "labelfor": "admin1_code"
+              },
+              "admin2_code": {
+                "source": "admin2_code",
+                "title": "admin2_code",
+                "parent": "admin1_code"
+              },
+              "admin2_label": {
+                "source": "admin2_label",
+                "title": "admin2_label",
+                "labelfor": "admin2_code"
+              }
+            },
+            "classificationType": "administrative"
+          },
+          "activity": {
+            "dimensionType": "activity",
+            "primaryKey": [
+              "activity1_code",
+              "activity2_code",
+              "activity3_code"
+            ],
+            "attributes": {
+              "activity1_code": {
+                "source": "activity1_code",
+                "title": "activity1_code"
+              },
+              "activity1_label": {
+                "source": "activity1_label",
+                "title": "activity1_label",
+                "labelfor": "activity1_code"
+              },
+              "activity2_code": {
+                "source": "activity2_code",
+                "title": "activity2_code",
+                "parent": "activity1_code"
+              },
+              "activity2_label": {
+                "source": "activity2_label",
+                "title": "activity2_label",
+                "labelfor": "activity2_code"
+              },
+              "activity3_code": {
+                "source": "activity3_code",
+                "title": "activity3_code",
+                "parent": "activity2_code"
+              },
+              "activity3_label": {
+                "source": "activity3_label",
+                "title": "activity3_label",
+                "labelfor": "activity3_code"
+              }
+            }
+          },
+          "functional-classification": {
+            "dimensionType": "classification",
+            "primaryKey": [
+              "func1_code"
+            ],
+            "attributes": {
+              "func1_code": {
+                "source": "func1_code",
+                "title": "func1_code"
+              },
+              "func1_label": {
+                "source": "func1_label",
+                "title": "func1_label",
+                "labelfor": "func1_code"
+              }
+            },
+            "classificationType": "functional"
+          },
+          "fin-source": {
+            "dimensionType": "other",
+            "primaryKey": [
+              "fin_source_code"
+            ],
+            "attributes": {
+              "fin_source_code": {
+                "source": "fin_source_code",
+                "title": "fin_source_code"
+              },
+              "fin_source_label": {
+                "source": "fin_source_label",
+                "title": "fin_source_label",
+                "labelfor": "fin_source_code"
+              }
+            }
+          },
+          "economic-classification": {
+            "dimensionType": "classification",
+            "primaryKey": [
+              "econ1_code",
+              "econ2_code",
+              "econ3_code"
+            ],
+            "attributes": {
+              "econ1_code": {
+                "source": "econ1_code",
+                "title": "econ1_code"
+              },
+              "econ1_label": {
+                "source": "econ1_label",
+                "title": "econ1_label",
+                "labelfor": "econ1_code"
+              },
+              "econ2_code": {
+                "source": "econ2_code",
+                "title": "econ2_code",
+                "parent": "econ1_code"
+              },
+              "econ2_label": {
+                "source": "econ2_label",
+                "title": "econ2_label",
+                "labelfor": "econ2_code"
+              },
+              "econ3_code": {
+                "source": "econ3_code",
+                "title": "econ3_code",
+                "parent": "econ2_code"
+              },
+              "econ3_label": {
+                "source": "econ3_label",
+                "title": "econ3_label"
+              }
+            },
+            "classificationType": "economic"
+          }
+        },
+        "measures": {
+          "approved_value": {
+            "source": "approved_value",
+            "title": "approved_value"
+          },
+          "executed_value": {
+            "source": "executed_value",
+            "title": "executed_value"
+          }
+        }
+      }
     }
   ],
   "title": "Croatian Budget and Spending",
