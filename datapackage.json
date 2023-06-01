@@ -363,9 +363,7 @@
             "groupChar": ","
           }
         ],
-        "missingValues": [
-          ""
-        ]
+        "missingValues": [""]
       },
       "encoding": "utf-8",
       "mediatype": "text/csv",
@@ -1132,9 +1130,7 @@
         "dimensions": {
           "date": {
             "dimensionType": "datetime",
-            "primaryKey": [
-              "Year"
-            ],
+            "primaryKey": ["Year"],
             "attributes": {
               "Year": {
                 "source": "Year",
@@ -1144,10 +1140,7 @@
           },
           "administrative-classification": {
             "dimensionType": "classification",
-            "primaryKey": [
-              "admin1_code",
-              "admin2_code"
-            ],
+            "primaryKey": ["admin1_code", "admin2_code"],
             "attributes": {
               "admin1_code": {
                 "source": "admin1_code",
@@ -1212,9 +1205,7 @@
           },
           "functional-classification": {
             "dimensionType": "classification",
-            "primaryKey": [
-              "func1_code"
-            ],
+            "primaryKey": ["func1_code"],
             "attributes": {
               "func1_code": {
                 "source": "func1_code",
@@ -1230,9 +1221,7 @@
           },
           "fin-source": {
             "dimensionType": "other",
-            "primaryKey": [
-              "fin_source_code"
-            ],
+            "primaryKey": ["fin_source_code"],
             "attributes": {
               "fin_source_code": {
                 "source": "fin_source_code",
@@ -1247,11 +1236,7 @@
           },
           "economic-classification": {
             "dimensionType": "classification",
-            "primaryKey": [
-              "econ1_code",
-              "econ2_code",
-              "econ3_code"
-            ],
+            "primaryKey": ["econ1_code", "econ2_code", "econ3_code"],
             "attributes": {
               "econ1_code": {
                 "source": "econ1_code",
@@ -1656,9 +1641,7 @@
             "groupChar": ","
           }
         ],
-        "missingValues": [
-          ""
-        ]
+        "missingValues": [""]
       },
       "encoding": "utf-8",
       "mediatype": "text/csv",
@@ -2425,9 +2408,7 @@
         "dimensions": {
           "date": {
             "dimensionType": "datetime",
-            "primaryKey": [
-              "Year"
-            ],
+            "primaryKey": ["Year"],
             "attributes": {
               "Year": {
                 "source": "Year",
@@ -2437,10 +2418,7 @@
           },
           "administrative-classification": {
             "dimensionType": "classification",
-            "primaryKey": [
-              "admin1_code",
-              "admin2_code"
-            ],
+            "primaryKey": ["admin1_code", "admin2_code"],
             "attributes": {
               "admin1_code": {
                 "source": "admin1_code",
@@ -2505,9 +2483,7 @@
           },
           "functional-classification": {
             "dimensionType": "classification",
-            "primaryKey": [
-              "func1_code"
-            ],
+            "primaryKey": ["func1_code"],
             "attributes": {
               "func1_code": {
                 "source": "func1_code",
@@ -2523,9 +2499,7 @@
           },
           "fin-source": {
             "dimensionType": "other",
-            "primaryKey": [
-              "fin_source_code"
-            ],
+            "primaryKey": ["fin_source_code"],
             "attributes": {
               "fin_source_code": {
                 "source": "fin_source_code",
@@ -2540,11 +2514,7 @@
           },
           "economic-classification": {
             "dimensionType": "classification",
-            "primaryKey": [
-              "econ1_code",
-              "econ2_code",
-              "econ3_code"
-            ],
+            "primaryKey": ["econ1_code", "econ2_code", "econ3_code"],
             "attributes": {
               "econ1_code": {
                 "source": "econ1_code",
@@ -2949,9 +2919,7 @@
             "groupChar": ","
           }
         ],
-        "missingValues": [
-          ""
-        ]
+        "missingValues": [""]
       },
       "encoding": "utf-8",
       "mediatype": "text/csv",
@@ -3718,9 +3686,7 @@
         "dimensions": {
           "date": {
             "dimensionType": "datetime",
-            "primaryKey": [
-              "Year"
-            ],
+            "primaryKey": ["Year"],
             "attributes": {
               "Year": {
                 "source": "Year",
@@ -3730,10 +3696,7 @@
           },
           "administrative-classification": {
             "dimensionType": "classification",
-            "primaryKey": [
-              "admin1_code",
-              "admin2_code"
-            ],
+            "primaryKey": ["admin1_code", "admin2_code"],
             "attributes": {
               "admin1_code": {
                 "source": "admin1_code",
@@ -3798,9 +3761,7 @@
           },
           "functional-classification": {
             "dimensionType": "classification",
-            "primaryKey": [
-              "func1_code"
-            ],
+            "primaryKey": ["func1_code"],
             "attributes": {
               "func1_code": {
                 "source": "func1_code",
@@ -3816,9 +3777,7 @@
           },
           "fin-source": {
             "dimensionType": "other",
-            "primaryKey": [
-              "fin_source_code"
-            ],
+            "primaryKey": ["fin_source_code"],
             "attributes": {
               "fin_source_code": {
                 "source": "fin_source_code",
@@ -3833,11 +3792,7 @@
           },
           "economic-classification": {
             "dimensionType": "classification",
-            "primaryKey": [
-              "econ1_code",
-              "econ2_code",
-              "econ3_code"
-            ],
+            "primaryKey": ["econ1_code", "econ2_code", "econ3_code"],
             "attributes": {
               "econ1_code": {
                 "source": "econ1_code",
@@ -3886,25 +3841,20 @@
   ],
   "title": "Croatian Budget and Spending",
   "description": "Spending information of the central government of Croatia",
-  "years_included": [
-    "2016",
-    "2017",
-    "2018",
-    "2019"
-  ],
   "pub_institutional_name": "Ministry of Finance",
-  "budget_stage": [
-    "Enacted"
-  ],
+  "budget_stage": ["Enacted"],
   "govt_level": "National",
   "continent": "Europe",
   "country": "Croatia",
+  "countryCode": "HR",
+  "fiscalPeriod": {
+    "start": "2016-01-01",
+    "end": "2018-12-31"
+  },
   "periodicity": "Yearly",
   "start_date": "2016-01-01",
   "end_date": "2019-12-31",
-  "tags": [
-    "Revenue"
-  ],
+  "tags": ["Revenue"],
   "createdAt": "2021-10-07T18:14:12Z",
   "updatedAt": "2021-10-14T09:12:48Z",
   "image": ""
