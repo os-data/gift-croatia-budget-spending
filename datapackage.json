@@ -374,7 +374,7 @@
         "delimiter": ",",
         "quoteChar": "\""
       },
-      "path": "data/croatia-budget-spending__2016.csv",
+      "path": "https://storage.openspending.org/croatia-budget-spending/croatia-budget-spending__2016.csv",
       "hashcopy": "78eddf71015a382d526ab8927176a00accd5c8dc4bbc22fa4612dc12d93b8c63",
       "sample": [
         [
@@ -1667,7 +1667,7 @@
         "delimiter": ",",
         "quoteChar": "\""
       },
-      "path": "data/croatia-budget-spending__2017.csv",
+      "path": "https://storage.openspending.org/croatia-budget-spending/croatia-budget-spending__2017.csv",
       "hashcopy": "ef50c1a0f871f06e9326dd6ec05ec03e04ed2c924012e9a9a1f6528aaf0cf688",
       "sample": [
         [
@@ -2960,7 +2960,7 @@
         "delimiter": ",",
         "quoteChar": "\""
       },
-      "path": "data/croatia-budget-spending__2018.csv",
+      "path": "https://storage.openspending.org/croatia-budget-spending/croatia-budget-spending__2018.csv",
       "hashcopy": "8e317fc9b947f157dc2510d1efa068152d57e485b275b8a064f8737e7de59a08",
       "sample": [
         [
